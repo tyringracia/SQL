@@ -1,0 +1,28 @@
+CREATE TABLE ForeverT (id Integer primary key, item text, price integer, size text, color text, material text);
+INSERT into ForeverT values (1, "Fitted Short T Shirt", "$15", "S/M/L", "Black/White/Taupe/Grey/Brown", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (2, "Fitted Long-Sleeve T Shirt", "$17","S/M/L", "Black/White/Taupe/Grey/Brown", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (3, "Corset Top", "$20", "S/M/L", "Black/White/Taupe/Grey/Brown", "Pure  Sustainable Cotton/Spandex");
+
+INSERT into ForeverT values (4, "Full length Bodycon Skirt", "$25", "S/M/L", "Black/White/Taupe/Grey/Brown", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (5, "High Waisted Trousers", "$29", "S/M/L", "Black/White/Taupe/Grey/Brown", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (6, "High-Waisted Pencil Skirt", "$21", "S/M/L", "Black/White/Taupe/Grey/Brown", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (7, "Bodycon Tank Top", "$12", "S/M/L", "Black/White/Taupe/Grey/Brown", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (8, "Riding Blazer", "$35", "S/M/L", "Black", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (9, "Wrap Sweater", "$29", "S/M/L", "Black/White/Taupe/Grey/Brown", "Pure Sustainable Cotton/Spandex");
+INSERT into ForeverT values (10, "Mary Jane Chunky Pumps", "$20", "S/M/L", "Black/Brown", "PU Leather");
+INSERT into ForeverT values (11, "Heart-Shaped Stud Earrings", "$15", "one-size", "gold/red", "Precious alloy metals/ruby stone");
+INSERT into ForeverT values (12, "Simple stone pendant", "$16", "one-size", "gold/red", "Precious alloy metals/ruby stone");
+INSERT into ForeverT values (13, "Everyday Satchel Bag", "$25", "one-size", "black", "PU Leather");
+INSERT into ForeverT values (14, "Heart-face Watch", "$15", "one-size/adjustable band", "gold/red", "Precious alloy metals/ruby stone/PU leather band");
+INSERT into ForeverT values (15, "Dress Up and Dress Down Belt", "$12", "S/M/L", "Black/Brown", "Precious alloy metals/ruby stone/PU leather");
+SELECT * FROM ForeverT; 
+
+SELECT * FROM ForeverT
+where price >= 12 Order by price asc; 
+
+SELECT * FROM ForeverT;
+
+SELECT MIN(price) FROM ForeverT;
+SELECT MAX(price) FROM ForeverT;
+
+
